@@ -6,10 +6,11 @@ function writeCards(names, event) {
   return thankYouMessages;
 }
 
-// Define the countDown function
 function countDown(number) {
+  
   while (number >= 0) {
     console.log(number);
     number--;
   }
 }
+countDown(10);
